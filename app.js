@@ -47,3 +47,13 @@ else{
 handleTestominial();
 }
 handleTestominial();
+
+document.onkeydown=(e)=>{
+    switch(e.keyCode){
+        case 37:
+            handleNextAndPrevious('next');
+        break;
+        case 39:
+            handleNextAndPrevious('prev');
+    }
+}
