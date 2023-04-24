@@ -51,9 +51,9 @@ handleTestominial();
 document.onkeydown=(e)=>{
     switch(e.keyCode){
         case 37:
-            handleNextAndPrevious('next');
+            handleNextAndPrevious('prev');
         break;
         case 39:
-            handleNextAndPrevious('prev');
+            handleNextAndPrevious('next');
     }
 }
